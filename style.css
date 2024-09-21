@@ -1,0 +1,356 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, input, textarea,h1,h2, button{
+  font-family: "Mulish", system-ui;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  
+  width: 430px;
+  margin: auto;
+  
+}
+
+#principal{
+  height: 679px;
+  text-align: center; 
+  
+}
+
+#img-principal {
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+section h1 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #B52184;
+  margin-bottom: 5px;
+}
+
+section span {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  
+  color: #312D64;
+  margin-bottom: 35px;
+}
+
+section button {
+  box-sizing: border-box;
+  width: 58px;
+  height: 105px;
+
+  background: transparent;
+  border: 2.61398px solid #B52184;
+  border-radius: 760.109px;
+
+}
+
+button img {
+  text-align: center;
+  padding-top: 40%;
+}
+
+
+#conteudo {
+  padding: 50px 39px;
+  height: 1242px;
+  background-color: #312D64;
+}
+
+section aside{
+  margin-bottom: 50px;
+}
+
+aside div{
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 352px;
+  height: 337px;
+  padding: 26px;
+
+  border-radius: 20px;
+}
+
+div img {
+  margin-bottom: 3px;
+}
+
+div h2{
+margin-top: 0;
+margin-bottom: 10px;
+color: #B52184;
+
+font-weight: 900;
+font-size: 29.2193px;
+line-height: 37px;
+}
+
+div p {
+  color: #312D64;
+  font-weight: 600;
+  font-size: 16.0416px;
+  line-height: 20px;
+}
+
+#formulario {
+  background: #fff;
+  height: 565px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin: 70px 40px 65px;
+  
+}
+
+form h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #B52184;
+
+  margin-bottom: 30px;
+
+}
+
+
+form input {
+
+  height: 48px;
+  
+  border-radius: 16px;
+  border: 2px solid #312D64;
+  
+  padding: 16px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  
+}
+
+form input::placeholder{
+  color: #312D64;
+}
+
+form textarea {
+  width: 348px;
+  height:126px;
+
+  border: 2px solid #312D64;
+  border-radius: 16px;
+  margin-bottom: 24px;
+
+  padding: 10px 16px;
+
+  margin: 0;
+}
+
+form textarea::placeholder{
+  color: #312D64;
+}
+
+.button {
+  width: 151px;
+  height: 45px;
+
+  justify-content: center;
+  border: none;
+
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  border-radius: 16px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+
+  padding: 10px 16px;
+
+  
+}
+
+#estrela {
+  display: none;
+}
+
+
+footer {
+  height: 78px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+
+  font-weight: 600;
+  font-size: 19.3811px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+@media(min-width:1440px){
+
+  main{
+    width: 1440px;
+  }
+
+  #principal{
+    height: 836px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 28px;
+
+    text-align: start;
+    
+   
+    
+  }
+
+  #img-principal {
+    width: 719px;
+    height: 732px;
+    text-align: center;
+    margin-bottom: 17px;
+  }
+
+  #conteudo-principal {
+    margin-top:312px;
+    margin-left: 109px;
+    
+    
+  }
+  #conteudo-principal h1 {
+    width: 554px;
+    font-size: 58px;
+    margin-bottom: 5px;
+  }
+
+  #conteudo-principal span {
+    width: 530px;
+    font-size: 32px;
+    margin-bottom: 179px;
+  }
+
+  button img {
+    text-align: center;
+    
+  }
+
+  #conteudo {
+    display: flex;
+    gap: 60px;
+
+    padding: 64px 111px;
+    height: 576px;
+
+    background-color: #312D64;
+  }
+
+  aside div{
+    
+    background-color: #fff;
+    width: 336px;
+    height: 448px;
+    padding: 26px;
+  
+    border-radius: 20px;
+  }
+
+  section aside{
+    margin-bottom: 0px;
+  }
+
+ 
+
+  #formulario {
+    display: flex;
+    justify-content: space-between;
+    height: 612px;
+  
+  }
+
+  form {
+    width: 595px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  
+    margin: 70px 40px 65px;
+    
+  }
+
+  #estrela {
+    display: block;
+  }
+
+  form textarea {
+    width: 100%
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
